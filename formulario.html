@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <!-- Nome completo dos integrantes do grupo
+
+      João Vítor Moura Normando
+  -->
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+  </head>
+  <body>
+
+  <header>
+    <nav class="navbar navbar-inverse">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Nome do site</a>
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="index.html">Pagina Inicial</a>
+          </li>
+          <li class="active">
+            <a href="formulario.html">Formulário</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Inicio do Formulario -->
+  <div class="container-fluid">
+    <h3 class="page-header">Cadastro de visitante</h3>
+    <form class="form-horizontal" action="formulario.html" method="post">
+      <!-- Campos do formulario -->
+      <div class="">
+
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="name">Nome:<span style="color: red"> *</span> </label>
+          <div class="col-md-5">
+            <input class="form-control" type="text" name="fieldNome" id="idNome" placeholder="Nome do visitante">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="sobreNome">Sobrenome:<span style="color: red"> *</span> </label>
+          <div class="col-md-5">
+            <input class="form-control" type="text" name="filedSobrenome" id="idSobrenome" placeholder="Sobrenome do visitante" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="sexo">Sexo:<span style="color: red"> *</span> </label>
+          <div class="col-md-5">
+            <select class="form-control" name="sexo" id="idSexo">
+              <option value="masc">Masculino</option>
+              <option value="fem">Feminino</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="email">Email:</label>
+          <div class="col-md-5">
+            <input class="form-control" type="text" name="fieldEmail" id="idEmail" placeholder="Email do visitante">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-md-4 control-label" for=""></label>
+          <div class="col-md-5">
+            <button type="submit" name="fieldCadastrar" id="idBtnCadastrar" class="btn btn-success">Cadastrar</button>
+            <button type="reset" name="fieldCancelar" id="idBtnCancelar" class="btn btn-danger">Cancelar</button>
+          </div>
+        </div>
+
+      </div>
+    </form>
+  </div>
+  <!-- Fim do Formulario -->
+
+  </body>
+</html>

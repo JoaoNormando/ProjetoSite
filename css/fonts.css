@@ -1,0 +1,22 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,700');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+.fontesCustomizadas {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 17px;
+	
+}
+
+
+.titleBanner {
+	font-family: 'Josefin Sans';
+	font-weight: 600;
+	font-size: 50px;
+}
+
+.subTitleBanner {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+}

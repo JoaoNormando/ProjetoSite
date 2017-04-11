@@ -12,7 +12,7 @@
 
 #banner {
   /*Configurações da imagem de fundo*/
-  background-image: url("../img/banner.jpg");
+  background-image: url("../img/chapadaDiamantina.jpg");
   background-position: center;
   background-repeat: no-repeat;
   min-height: 80vh;
@@ -22,5 +22,14 @@
   position: relative;
   /*Configuração da escrita sobre a imagem*/
   text-align: center;
-  color: #ffffff; 
+  color: #ffffff;
+}
+
+.bannerTextDeep {
+  border: solid 1px #ffffff;
+  width: 400px;
+  margin-left: 450px;
+  margin-top: 100px;
+  background-color: #8FBC8F;
+  opacity: 0.9;
 }

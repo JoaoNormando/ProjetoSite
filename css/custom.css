@@ -33,3 +33,8 @@
   background-color: #8FBC8F;
   opacity: 0.9;
 }
+
+.imagensPreview {
+  width: 60px;
+  margin-left: 120px;
+}

@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+
+
+ul#album-imagens {
+	width: 900px;
+	margin: 0auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+	top: 20%;
+	left: 20%;
+	position: relative;
+	
+}
+ul#album-imagens li {
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border: 5px solid #ffffff;
+	background-color: #ffffff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+	-webkit-transition: all .6s ease-in;
+}
+ul#album-imagens li:hover span {
+	opacity: 1;
+}
+ul#album-imagens li:hover {
+	-webkit-transform: scale(1.5);
+}
+ul#album-imagens li span {
+	opacity: 0;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.4);
+	font-size: 10pt;
+	line-height:350px;
+	padding: 5px; 
+}
+ul#album-imagens li#foto01 {
+	background: url('../img/foto01.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+ul#album-imagens li#foto01:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+ul#album-imagens li#foto02 {
+	background: url('../img/foto02.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+ul#album-imagens li#foto02:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+ul#album-imagens li#foto03 {
+	background: url('../img/foto03.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+ul#album-imagens li#foto03:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+ul#album-imagens li#foto04 {
+	background: url('../img/foto04.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+ul#album-imagens li#foto04:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+ul#album-imagens li#foto05 {
+	background: url('../img/foto05.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+ul#album-imagens li#foto05:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+ul#album-imagens li#foto06 {
+	background: url('../img/foto06.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 400px 400px;
+	background-color: #ffffff;
+}
+ul#album-imagens li#foto06:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}

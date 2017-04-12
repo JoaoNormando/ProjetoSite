@@ -6,10 +6,14 @@
   -->
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Biomas Brasileiro</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="css/custom.css" />
-	<link rel="stylesheet"  type="text/css" href="css/fonts.css"/>
+	  <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
+
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
   </head>
   <body>
 
@@ -84,6 +88,9 @@
         <h1>Tabela de Dados</h1>
 
         <table id="tabelaDados" class="table table-striped table-bordered" style="width: 700px; margin-left: 25%">
+          <caption align="bottom" style="text-align: center;">
+            Fonte: <a href="http://www.sobiologia.com.br/conteudos/bio_ecologia/ecologia13.php">http://www.sobiologia.com.br/conteudos/bio_ecologia/ecologia13.php</a>
+          </caption>
           <thead>
             <th>Biomas Continentais Brasileiros</th>
             <th>Área Aproximada (km²)</th>
@@ -131,6 +138,9 @@
             </tr>
           </tfoot>
         </table>
+
+        <div id="container" style="min-width: 310px; height: 400px; max-width: 600px; margin: 0 auto" ></div>
+          <script type="text/javascript" src="js/graficoPizza.js"></script>
       </div>
 
     </section>

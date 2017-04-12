@@ -6,7 +6,7 @@ Highcharts.chart('container', {
         type: 'pie'
     },
     title: {
-        text: 'Grafico da área de biomas brasileiro'
+        text: 'Gráfico da área de biomas brasileiro'
     },
     tooltip: {
         pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
@@ -32,9 +32,7 @@ Highcharts.chart('container', {
             y: 49.29
         }, {
             name: 'Cerrado',
-            y: 23.92,
-            sliced: true,
-            selected: true
+            y: 23.92
         }, {
             name: 'Mata Atlântica',
             y: 13.04

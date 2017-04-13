@@ -11,9 +11,9 @@
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="css/custom.css" />
-	<link rel="stylesheet" type="text/css" href="css/fonts.css"/>
-	<link rel="stylesheet" type="text/css" href="css/fotos.css"/>
-	  
+  	<link rel="stylesheet" type="text/css" href="css/fonts.css"/>
+  	<link rel="stylesheet" type="text/css" href="css/fotos.css"/>
+
 
     <script src="https://code.highcharts.com/highcharts.js"></script>
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
@@ -28,9 +28,6 @@
         <ul class="nav navbar-nav">
           <li class="active" >
             <a href="index.html" class="fontesCustomizadas">INÍCIO</a>
-          </li>
-          <li>
-            <a href="index.html#galeriaImagens" class="fontesCustomizadas">GALERIA</a>
           </li>
           <li>
             <a href="formulario.html" class="fontesCustomizadas">FORMULÁRIO</a>
@@ -60,7 +57,7 @@
             <h2>Conteudo</h2>
             <img src="img/conteudo-logo.png" alt="" class="img-circle imagensPreview">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
-            <a class="btn btn-success" href="#">Mais sobre o conteudo</a>
+            <a class="btn btn-success" href="index.html#conteudo">Mais sobre o conteudo</a>
           </div>
 
           <div class="col-md-4">
@@ -85,7 +82,19 @@
     <section id="conteudo">
       <!-- Tudo sobre a galeria de imagens -->
       <div class="page-header titulo">
-        <h1>Conteudo</h1>
+        <h1>Conteúdo</h1>
+        <table>
+          <tbody>
+            <tr>
+              <td><img src="img/conteudo.png" alt="" class="img-circle"></td>
+              <td style="width: 700px; text-align: justify; padding-left: 40px;">
+                <p>Bioma, é entendido como conjunto de ecossistemas terrestres, está palavra foi criada pelo americano Frederic Clements, que definiu bioma como comunidade de plantas e animais.</p>
+                <p>Os biomas terrestres se constituem por três grupos de seres, os que produzem que são os vegetais, os que consomem que são os animais e os decompositores que são os fungos e as bactérias.</p>
+                <p>Situado na América do Sul, o Brasil tem como características principais em seu bioma a Amazônia, ela ocupa cerca de 50% do território, sendo a maior reserva de biodiversidade do mundo, vindo logo atrás o cerrado com 24%, está localizado em sua maioria no centro oeste do país, podemos destacar no cerrado brasileiro a nascente das três maiores bacias brasileiras, tornando-se um grande potencial aquífero e de grande biodiversidade. Além desses tipos temos também no território brasileiro a Mata Atlântica que hoje tem uma extensão de aproximadamente 844 km², a Caatinga que é um ecossistema exclusivamente brasileiro ocupa cerca de 11% do país, estando ele principalmente na região Nordeste, outro tipo de bioma é o Pampa, localizado apenas no Rio Grande do sul no país, ele também se estende para outros países, como o Uruguai e a Argentina e tem como vegetação predominante as ervas e arbustos, e por último o Pantanal, tendo aproximadamente uma área de 150km² é caracterizado por inundações de longa duração devido a longos períodos de chuva, o que provoca alterações no ambiente e tem como vegetação predominante a savana.</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
       <div class="page-header titulo">
@@ -154,7 +163,7 @@
 				<h1>Galeria de Fotos</h1>
 			</div>
 		<div id="galeria">
-			 
+
 					<ul id="album-imagens">
 						<li id="foto01"><span>Amazônia</span></li>
 						<li id="foto02"><span>Cerrado</span></li>
